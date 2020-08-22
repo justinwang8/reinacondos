@@ -18,6 +18,9 @@ app.get("/", function(req, res){
 })
 
 // Listen
-app.listen(process.env.PORT, function(){
+app.listen(3000, function(){
 	console.log("SERVER IS RUNNING!");
 })
+
+// process.env.PORT
+

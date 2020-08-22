@@ -10,14 +10,13 @@ body {
 }
 
 footer {
-	/* position: absolute;
-   	bottom:0;
-  	width:100%;
-	height: 150px;
-   	background:#6cf; */
 	background-color: #6cf;
-  	flex: 0 0 460px;/*or just height:50px;*/
+  	flex: 0 0 460px;
   	margin-top: auto;
+}
+
+section {
+	margin-bottom: 50px;
 }
 
 .container {
@@ -26,8 +25,22 @@ footer {
 	margin-top: 20px;
 }
 
+.container-fluid {
+	max-width: max-content;
+}
+
 .navbar {
 	min-height: 80px;
+}
+
+.odd {
+	background-color: #e3f2fd;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.title {
+	font-family: "Monda", serif;
 }
 
 #footercontent {
@@ -38,6 +51,3 @@ footer {
 	background-color: lightblue;
 }
 
-#title {
-	font-family: "Monda", serif;
-}
