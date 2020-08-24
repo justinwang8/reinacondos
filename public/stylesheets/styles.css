@@ -15,10 +15,6 @@ footer {
   	margin-top: auto;
 }
 
-section {
-	margin-bottom: 50px;
-}
-
 .container {
 	padding-top: 70px;
 	padding-bottom: 70px;
@@ -29,14 +25,22 @@ section {
 	max-width: max-content;
 }
 
+.card {
+	margin: auto;
+}
+
 .navbar {
 	min-height: 80px;
 }
 
+.nav-link {
+	font-size: 18px;
+}
+
 .odd {
-	background-color: #e3f2fd;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	background-color: #b0e5f7;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 
 .title {
@@ -47,12 +51,17 @@ section {
 	min-width: 100vw;
 }
 
+#floorplans {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
 #footercontent {
 	margin-top:  250px;
 }
 
-#second {
-	background-color: lightblue;
-}
+
+
+
 
 
